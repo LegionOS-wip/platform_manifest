@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.0.0_r2"
            remote="aosp"
@@ -1092,4 +1092,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- LegionOS Manifest -->
+  <include name="remove.xml" />
+  <include name="legion.xml" />
+  
 </manifest>
