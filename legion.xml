@@ -109,7 +109,7 @@
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" remote="lineage" />
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="legion" />
   <project path="system/core" name="system_core" remote="legion" />
  
   <!--Tools -->
